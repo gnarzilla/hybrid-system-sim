@@ -10,7 +10,8 @@ class Registers:
         self.analog_registers[name] = value
 
     def get_analog(self, name):
-        return self.analog_registers.get(name, 0.0)
+        # Ensure that if the analog register hasn't been set, we start with a base value 1.0
+        return self.analog_registers.get(name, 1.0)
 
     def set_digital(self, name, value):
         self.digital_registers[name] = int(value)
