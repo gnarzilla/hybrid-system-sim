@@ -1,5 +1,0 @@
-RR1 1 0 1k
-CC1 1 0 1uF
-VV1 1 0 DC 5V
-.tran 0.1 10
-.end

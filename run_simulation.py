@@ -3,7 +3,7 @@
 from interpreter import Interpreter
 
 # Load a sample program
-with open("test_programs/full_test_program.txt", "r") as f:
+with open("test_programs/sample_program.txt", "r") as f:
     program = f.readlines()
 
 # Initialize interpreter and run program
