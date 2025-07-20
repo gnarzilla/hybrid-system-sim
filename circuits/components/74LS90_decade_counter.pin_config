@@ -1,0 +1,19 @@
+The 74LS90 is a 14-pin IC. Here’s a breakdown of its pin configuration:
+Pin Configuration for 74LS90 (Decade Counter)
+
+    Pin 1 (NC): Not connected.
+    Pin 2 (R1): Reset 1 - Used for resetting the counter.
+    Pin 3 (R2): Reset 2 - Used with Pin 2 to reset the counter.
+    Pin 4 (NC): Not connected.
+    Pin 5 (Vcc): Connects to the positive power supply (typically 5V).
+    Pin 6 (NC): Not connected.
+    Pin 7 (GND): Ground - Connects to the ground of the circuit.
+    Pin 8 (Q2): Output - Second bit of the binary count.
+    Pin 9 (Q1): Output - First bit of the binary count.
+    Pin 10 (GND): Ground.
+    Pin 11 (Q3): Output - Third bit of the binary count.
+    Pin 12 (Q0): Output - Least significant bit (LSB) of the binary count.
+    Pin 13 (Clock B): Secondary clock input.
+    Pin 14 (Clock A): Primary clock input - Often used as the main clock input to increment the counter.
+
+This configuration allows the 74LS90 to be used in various counting and timing applications. For our project, the main pins of interest are Clock A (Pin 14) to increment the count, Q0-Q3 (Pins 8, 9, 11, and 12) for output, and Reset (Pins 2 and 3) to reset the counter.
